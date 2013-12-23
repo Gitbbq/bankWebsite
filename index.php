@@ -5,7 +5,6 @@ require_once 'include.php';
 
 
 
-
 if ( !empty( $_REQUEST[CONTROLLER] ) ) {
     $action =  $_REQUEST[CONTROLLER].'Controller';
 }  else {

@@ -58,6 +58,21 @@
 		margin-top: 50px;
 
 		}
+		.spanlogin{
+			display: inline-block;
+		}
+
+		.spanLoginText{
+			width: 207px;
+		}
+
+		.spanLoginFrist{
+			width: 73px;
+		}
+
+		.divLogin{
+			height: 40px;
+		}
 		</style>
 	</head>
 	<body style=" background-image:url(./public/image/bj.png)">
@@ -65,65 +80,34 @@
 			<div class="titleStyle">
 				<img src="./public/image/banner.png" style=" margin-top: 128px;">
 			</div>
-			<div class="rowLogoStyle">
-				<span><img src="./public/image/logo.png"></span> <span style=" font-size: 25px; margin-left: 8px; font-weight: bold">江西省农村信用社</span>
-			</div>
-			<div style=" height: 100px;"></div>
-			<div class="rowListStyle">
-				<div class="systemCache" style=" margin-left: 62px;">
-					<div class="imgWarp">
-						<img src="./public/image/3-1_03.png" class="imgStyle">
+			<div style='background-image:url(./public/image/loginback.png); width: 875px; height: 365px; margin-left: 192px;'>
+				<div class="rowLogoStyle">
+					<div>
+						<span><img src="./public/image/logo.png"></span> <span style=" font-size: 25px; margin-left: 8px; font-weight: bold">江西省农村信用社</span>
 					</div>
-					<div class="roundedBorder" style=" width: 110px; background-color: rgb(9,39,82)">
-						系统缓存管理
+					<div style=' height: 60px;'>
+						&nbsp;
 					</div>
 				</div>
-				<div class="systemCache">
-					<div class="imgWarp">
-						<img src="./public/image/3-1_11.png" class="imgStyle">
+				<div style=' width: 350px; margin-left: 295px; margin-top: 18px;'>
+					<div class='divLogin'>
+						<span class='spanlogin spanLoginFrist'>用户名：</span> <span class='spanlogin'><input type='text' name='username' class='spanLoginText'></span>
 					</div>
-					<div class="roundedBorder" style=" width: 90px; background-color: rgb(9,39,82)">
-						报表管理
+					<div class='divLogin'>
+						<span class='spanlogin spanLoginFrist'>密码:</span> <span class='spanlogin'><input type='text' name='password' class='spanLoginText'></span>
 					</div>
-				</div>
-				<div class="systemCache">
-					<div class="imgWarp">
-						<img src="./public/image/3-1_06.png" class="imgStyle">
+					<div class='divLogin'>
+						<span class='spanlogin spanLoginFrist'>验证码:</span> <span class='spanlogin'><input type='text' name='yanzhengma'></span> <span class='spanlogin' style='width: 25px;'>&nbsp;</span> <span class='spanlogin' style=' background-color: rgb(175,175,175); width: 50px; height: 19px;'>&nbsp;</span>
 					</div>
-					<div class="roundedBorder" style=" width: 110px; margin-left: 18px; background-color: rgb(9,39,82);">
-						参数配置管理
-					</div>
-				</div>
-				<div class="systemCache">
-					<div class="imgWarp">
-						<img src="./public/image/3-1_08.png" class="imgStyle">
-					</div>
-					<div class="roundedBorder" style=" background-color: rgb(9,39,82);width: 90px;">
-						任务管理
-					</div>
-				</div>
-				<div class="systemCache" style=" margin-top: 40px;">
-					<div class="imgWarp">
-						<img src="./public/image/3-1_20.png" class="imgStyle">
-					</div>
-					<div class="roundedBorder" style=" margin-left: 18px;background-color: rgb(9,39,82)">
-						厂商信息管理
-					</div>
-				</div>
-				<div class="systemCache">
-					<div class="imgWarp">
-						<img src="./public/image/3-1_14.png" class="imgStyle">
-					</div>
-					<div class="roundedBorder" style=" margin-left: 18px;background-color: rgb(9,39,82)">
-						流程管理
-					</div>
-				</div>
-				<div class="systemCache">
-					<div class="imgWarp">
-						<img src="./public/image/3-1_17.png" class="imgStyle">
-					</div>
-					<div class="roundedBorder" style=" margin-left: 15px;background-color: rgb(9,39,82)">
-						角色权限管理
+					<div class='divLogin'>
+						<span class='spanlogin' style='width: 78px;'>&nbsp;</span> 
+
+
+
+						<span class='spanlogin' style='width: 85px; height:35px;background-image:url(./public/image/loginbutton.png); color:white; font-size: 14px; text-indent: 20px; letter-spacing: 10px; line-height: 35px; font-weight: bold;'>登入</span>
+
+
+
 					</div>
 				</div>
 			</div>

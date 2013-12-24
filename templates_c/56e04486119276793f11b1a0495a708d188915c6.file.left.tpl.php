@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:58:10
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 18:00:52
          compiled from "/web/www/bankWebsite/templates/frame/left.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:28029555352b95ab21a1175-98542148%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:150917670652b95b54e1a7b4-60993514%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '56e04486119276793f11b1a0495a708d188915c6' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/left.tpl',
-      1 => 1387879014,
+      1 => 1387879201,
     ),
   ),
-  'nocache_hash' => '28029555352b95ab21a1175-98542148',
+  'nocache_hash' => '150917670652b95b54e1a7b4-60993514',
   'function' => 
   array (
   ),

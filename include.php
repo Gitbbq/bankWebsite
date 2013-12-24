@@ -35,14 +35,14 @@ if ($handle = opendir(FOOTBASIC)) {
 }
 
 
-if ($handle = opendir(FOOTCLASS)) {
-    while (false !== ($file = readdir($handle))) {
-        if ($file != '.' && $file != '..' && $file != '.svn' && $file != ".DS_Store") {
-            include_once(FOOTCLASS . $file);
-        }
-    }
-    closedir($handle);
-}
+//if ($handle = opendir(FOOTCLASS)) {
+//    while (false !== ($file = readdir($handle))) {
+//        if ($file != '.' && $file != '..' && $file != '.svn' && $file != ".DS_Store") {
+//            include_once(FOOTCLASS . $file);
+//        }
+//    }
+//    closedir($handle);
+//}
 
 
 if ($handle = opendir(FOOTController)) {

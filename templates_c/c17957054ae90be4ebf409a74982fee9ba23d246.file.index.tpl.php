@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 18:37:50
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 18:59:22
          compiled from "/web/www/bankWebsite/templates/frame/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:103537806652b963fec9b3a5-24607292%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:51095948852b9690ad63ce4-49853778%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c17957054ae90be4ebf409a74982fee9ba23d246' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/index.tpl',
-      1 => 1387881400,
+      1 => 1387882762,
     ),
   ),
-  'nocache_hash' => '103537806652b963fec9b3a5-24607292',
+  'nocache_hash' => '51095948852b9690ad63ce4-49853778',
   'function' => 
   array (
   ),
@@ -34,11 +34,11 @@ $_smarty_tpl->decodeProperties(array (
         <iframe src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
 =frame&<?php echo $_smarty_tpl->getVariable('FUNCTIONS')->value;?>
-=left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" style='float: left;width: 234px;height: 600px;position: relative;top: -8px;left: 4px;'frameborder = '0' ></iframe>
+=left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" style='float: left;width: 18%;height: 600px;position: relative;top: -8px;left: 4px;'frameborder = '0' ></iframe>
             
         <iframe src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
 =test&<?php echo $_smarty_tpl->getVariable('FUNCTIONS')->value;?>
-=index" name="mainFrame" style="width:1044px;height: 600px;" id="mainFrame" title="mainFrame"  style='float: left;' frameborder = '0'></iframe>
+=index" name="mainFrame" style="width:82%;height: 600px;" id="mainFrame" title="mainFrame"  style='float: left;' frameborder = '0'></iframe>
     </body>
 </html>

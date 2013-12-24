@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
-        <head>
+    <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="public/css/managementRight.css">
+        <link rel="stylesheet" media="screen" href="./public/css/managementRight_1.css">
         <script src="./public/js/jquery.js"></script>
         <script src="./public/js/errorMessage.js"></script>
     </head>
     <body>
         <div>
             <div id="top" class="titleStyle">
-                <div class="blueLine"></div>
-                <div style="background-color: #E4EEFA;height: 47px;">
+                <div class="headBackgroud">
                     <div style="margin-left: 15px;">
                         <span id="nowPosition">当前位置：系统参数配置管理</span> > 凭证交叉对比配置规则表
                     </div>

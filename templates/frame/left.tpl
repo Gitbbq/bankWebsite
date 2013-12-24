@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="public/css/managementLeft.css">
+        <link rel="stylesheet" media="screen" href="/public/css/managementLeft_1.css">
     </head>
     <body>
         <div id="navTitle">
@@ -12,11 +12,11 @@
         <div id="nav">
             <div>
                 <ul id="navMenu">
-                    <li>
+                    <li class="menuBoxSelect">
                         <div class=" divFloat ">
                             <div class="navMenuImage" id="I303"></div>
                         </div>
-                        <div class="divFloat navText">系统缓存管理</div>
+                        <div class="divFloat navText ">系统缓存管理</div>
                     </li>
                     <li>
                         <div class=" divFloat ">
@@ -33,15 +33,15 @@
 
 
                         </li>
-                        <li >
+                        <li class="nomalChildItem">
                             <div class="divFloat chlidIcon"></div>
                             <div class="divFloat chlidNavText">任务自动分派规则配置表</div>
                         </li>
-                        <li >
+                        <li class="nomalChildItem">
                             <div class="divFloat" style="width: 8px; height:9px; margin-top: 10px;"></div>
                                 <div class="divFloat chlidNavText">交易目录信息定义表</div>
                         </li>
-                        <li >
+                        <li class="nomalChildItem">
                             <div class="divFloat" style="width: 8px; height:9px; margin-top: 10px;"></div>
                             <div class="divFloat chlidNavText">凭证印象模板数据库配置说明</div>
                         </li>

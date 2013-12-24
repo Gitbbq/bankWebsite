@@ -1,19 +1,52 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-23 14:46:13
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 14:07:17
          compiled from "/web/www/bankWebsite/templates/frame/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:394188552b7dc351c0c13-07051942%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:68890759752b92495573305-69871515%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e85ac92f253b77ccb50bd0f31f330c71335fbcec' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/header.tpl',
-      1 => 1387780679,
+      1 => 1387865070,
     ),
   ),
-  'nocache_hash' => '394188552b7dc351c0c13-07051942',
+  'nocache_hash' => '68890759752b92495573305-69871515',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
 )); /*/%%SmartyHeaderCode%%*/?>
-headers
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+         <link rel="stylesheet" media="screen" href="../../public/css/titleStyle.css">
+    </head>
+    <body>
+        <div id="title">
+            <div class="divFloat" id="titleLogo">
+                
+            </div>
+            <div class="divFloat" id="titleText"></div>
+            <div class="divFloat" id="titleTools">
+                <div style="margin-top: 15px;"class="divFloat" >
+                    <div id="exitButton">
+                        
+                    </div>
+                    <div class="titleToolsMenu" style="line-height: initial">退出</div>
+                </div>
+                <div id="titleToolsLine" class="divFloat">
+                    
+                </div>
+                <div class="divFloat" style="margin-top: 5px;">
+                    <div id="homeButton">
+                        
+                    </div>
+                    <div class="titleToolsHome" style="line-height: initial">首页</div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </body>
+</html>

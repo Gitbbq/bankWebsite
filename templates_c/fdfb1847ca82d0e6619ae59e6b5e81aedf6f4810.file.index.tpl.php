@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:20:56
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 18:31:50
          compiled from "/web/www/bankWebsite/templates/test/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:67188064952b951f8930ff7-17351674%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:21731884352b96296060023-04724771%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fdfb1847ca82d0e6619ae59e6b5e81aedf6f4810' => 
     array (
       0 => '/web/www/bankWebsite/templates/test/index.tpl',
-      1 => 1387876806,
+      1 => 1387881094,
     ),
   ),
-  'nocache_hash' => '67188064952b951f8930ff7-17351674',
+  'nocache_hash' => '21731884352b96296060023-04724771',
   'function' => 
   array (
   ),
@@ -18,18 +18,17 @@ $_smarty_tpl->decodeProperties(array (
 )); /*/%%SmartyHeaderCode%%*/?>
 <!DOCTYPE html>
 <html>
-        <head>
+    <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="public/css/managementRight.css">
+        <link rel="stylesheet" media="screen" href="./public/css/managementRight.css">
         <script src="./public/js/jquery.js"></script>
         <script src="./public/js/errorMessage.js"></script>
     </head>
     <body>
         <div>
             <div id="top" class="titleStyle">
-                <div class="blueLine"></div>
-                <div style="background-color: #E4EEFA;height: 47px;">
+                <div class="headBackgroud">
                     <div style="margin-left: 15px;">
                         <span id="nowPosition">当前位置：系统参数配置管理</span> > 凭证交叉对比配置规则表
                     </div>

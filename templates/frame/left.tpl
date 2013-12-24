@@ -9,8 +9,8 @@
         <div id="navTitle">
             导航菜单
         </div>
-        <div id="nav">
-            <div style='width: 221px;height: 21px;background-color: white; margin-top: -5px;'></div>
+        <div id="nav" style='margin-top: -21px;'>
+           
             <div>
                 <ul id="navMenu">
                     <li >

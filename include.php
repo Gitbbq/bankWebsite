@@ -10,7 +10,7 @@ defined('FOOTBASIC') or define('FOOTBASIC', FOOT_ . '/bankWebsite/basicClasses/'
 defined('FOOTCLASS') or define('FOOTCLASS', FOOT_ . '/bankWebsite/Model/');
 defined('FOOTController') or define('FOOTController', FOOT_ . '/bankWebsite/publicController/');
 defined('URLController') or define('URLController', 'http://localhost/bankWebsite/');
-//defined('URLController') or define('URLController', 'http://112.124.25.155/boby/');
+//defined('URLController') or define('URLController', 'http://112.124.25.155/bankWebsite/');
 
 
 

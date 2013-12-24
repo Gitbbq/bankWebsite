@@ -1,0 +1,218 @@
+/* 
+    Document   : managementRight
+    Created on : 2013-12-23, 14:14:17
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    margin: 0;padding: 0;
+    width: 1050px;
+}
+.menuLine{
+background-color:#49ABED;
+width:3px;
+margin-top: 2px;
+}
+.titleStyle{
+
+    line-height: 50px;
+    height: 50px;
+    box-shadow: 0px 1px 1px #888888;
+}
+.menuStyle{
+    padding-left: 0;
+
+    margin-top: 2px;
+    height: 30px;
+    line-height: 30px;
+    background-image:url('../image/menuBackgroud.png');
+}
+.menuFont{
+    color: black;
+    font-size: 13px;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+#uploadImage{
+    width: 16px;
+    height: 16px;
+    background-image:url('../image/uploadImage.png');
+    float: left;
+    margin-top: 8px;
+}
+#downloadImage{
+    background-image:url('../image/downloadImage.png');
+}
+#editImage{
+    background-image:url('../image/editImage.png');
+}
+#refreshImage{
+    background-image:url('../image/refreshImage.png');
+}
+#saveImage{
+    background-image:url('../image/saveImage.png');
+}
+.menuImageStyle{
+        width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.divFloat{
+
+/*    display: inline-block;*/
+float: left;
+}
+.listPointer{
+    height:28px;
+    width: 29px;
+    background-image:url('../image/listPointer.png');
+    background-repeat: no-repeat;
+}
+/*#context div>select{
+    margin-right:  40px;
+    width:  200px;
+    height: 25px;
+
+    vertical-align: middle;
+    padding-left: 5px;
+        padding-top: 5px;
+    font-size: 14px;
+    border:#C5C5C5 1px solid;
+    -webkit-appearance: none;
+    -moz-appearance:menu; 
+    font-weight: bold;
+}*/
+.selectBorder{
+    border:#C5C5C5 1px solid;
+    font-size: 14px;
+    color: black;
+    vertical-align: middle;
+    font-weight: bold;
+    height:28px; 
+    margin-right: 40px;
+    margin-top: 5px;
+}
+.selectFont{
+    line-height: 28px;
+    width: 170px;
+    padding-left: 5px;
+}
+.contextStyle{
+    height: 502px;
+    background-color:#DBEEFD; 
+    padding-left: 3px;
+    padding-top: 2px;
+    margin-top: -12px;
+}
+#nowPosition{
+    font-size: 14px;
+    color: #014064;
+}
+th{
+    font-weight: normal;
+}
+.tableTitle{
+    background-color: #F2F2F2;
+}
+th,td{
+    height: 35px;
+    border-bottom:  #D9D9D9 1px solid;
+    font-size: 13px;
+    color: black;
+}
+.borderRight{
+    border-right:  #D9D9D9 1px solid;
+}
+/*将表格文字与title对齐*/
+.leftPadding{
+    padding-left: 25px;
+}
+/*表格中竖线的样式*/
+.lineStyle{
+    margin-right: 20px;
+    color: #D9D9D9;
+}
+td{
+    text-align: center;
+}
+.noCenter{
+    text-align: left;
+    padding-left: 10px;
+}
+tr:nth-child(odd)>td{
+    background-color: #F9F9F9;
+}
+.taskBotton{
+    margin-right: 5px;
+margin-top: 9px;
+    cursor: pointer;
+}
+#taskbar{
+    line-height: 30px;
+    height: 30px;
+    background-image: url('../image/taskbarGrey.png');
+}
+
+#firstPageButton{
+    background-image: url('../image/firstPageButton.png');
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+}
+#prevPageButton{
+    background-image: url('../image/prevPageButton.png');
+    width: 14px;
+  height: 14px;
+    background-repeat: no-repeat;
+
+}
+#pageNumText{
+    margin-right: 5px;
+    font-size:14px;
+    color: black;
+}
+#nextPageButton{
+    background-image: url('../image/nextPageButton.png');
+    width: 14px;
+  height: 14px;
+    background-repeat: no-repeat;
+}
+#lastPageButton{
+    background-image: url('../image/lastPageButton.png');
+    width: 14px;
+  height: 14px;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+}
+#taskLine{
+    background-image: url('../image/taskLine.png');
+    width: 1px;
+  height: 14px;
+  margin-top: 9px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#taskRefresh{
+    background-image: url('../image/taskRefresh.png');
+    width: 16px;
+  height: 14px;
+    background-repeat: no-repeat;
+      margin-top: 9px;
+}
+#taskMessage{
+    text-align: right;
+    font-size: 12px;
+    color: black;
+    float: right;
+    margin-right: 5px;
+}

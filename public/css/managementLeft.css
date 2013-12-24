@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 225px;
+}
+#navTitle{
+    width: 222px;
+    height: 47px;
+    background-image: url('../image/navTitle.png');
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+#nav{
+    width: 222px;
+    height: 558px;
+    background-image: url('../image/nav.png');
+    background-repeat: no-repeat;
+}
+ul{
+        list-style-type: none;
+    padding-left: 10px;
+}
+#chlidNavMenu{
+    padding-left: 0px;
+}
+#navMenu>li{
+    width: 190px;
+    height: 33px;
+    background-image: url('../image/menuBox.png');
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    /*     line-height: 33px;*/
+    padding-left: 10px;
+    /*     padding-top: 5px;*/
+}
+.divFloat{
+
+    /*    display: inline-block;*/
+    float: left;
+
+}
+.cacheManagement{
+    width: 20px;
+    height: 20px;
+    background-image: url('../image/3-1_03.png');
+    background-repeat: no-repeat;
+}
+.navText{
+    margin-top: 5px;
+    font-size: 16px;
+    color: #014064;
+    font-weight: bold;
+        
+}
+#chlidNavMenu>li{
+    width: 200px;
+    height: 33px;
+    margin-bottom: 10px;
+}
+.selectChildItem{
+
+    background-image: url('../image/selectChildItem.png');
+    background-repeat: no-repeat;
+}
+.chlidNavText{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #050505;
+}
+.navMenuImage{
+    width: 30px; 
+    height:30px;
+    background-repeat: no-repeat;
+}
+.chlidIcon{
+    width: 8px;
+    height:9px;
+    margin-top: 10px; 
+    background-image: url('../image/chlidIcon.png');
+}
+#I303{
+        background-image: url('../image/3-1_03.png');
+}
+#I306{
+        background-image: url('../image/3-1_06.png');
+}
+#I311{
+        background-image: url('../image/3-1_11.png');
+}
+#I308{
+        background-image: url('../image/3-1_08.png');
+}
+#I320{
+        background-image: url('../image/3-1_20.png');
+}
+#I314{
+        background-image: url('../image/3-1_03.png');
+}
+#I317{
+        background-image: url('../image/3-1_03.png');
+}

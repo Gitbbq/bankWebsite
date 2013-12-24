@@ -73,42 +73,34 @@
 		.divLogin{
 			height: 40px;
 		}
+
+		.spanFontColor{
+			color: rgb(167,167,167);
+		}
 		</style>
 	</head>
-	<body style=" background-image:url(./public/image/bj.png)">
-		<div class="warp">
-			<div class="titleStyle">
-				<img src="./public/image/banner.png" style=" margin-top: 128px;">
-			</div>
-			<div style='background-image:url(./public/image/loginback.png); width: 875px; height: 365px; margin-left: 192px;'>
-				<div class="rowLogoStyle">
-					<div>
-						<span><img src="./public/image/logo.png"></span> <span style=" font-size: 25px; margin-left: 8px; font-weight: bold">江西省农村信用社</span>
-					</div>
-					<div style=' height: 60px;'>
-						&nbsp;
-					</div>
-				</div>
-				<div style=' width: 350px; margin-left: 295px; margin-top: 18px;'>
+	<body style=" background-image:url(./public/image/loginback.png); background-position: center -85px; background-repeat: no-repeat;'">
+		<div class="warp" style='position: relative;'>	
+
+
+			    <div style=' height: 200px;'>&nbsp;</div>
+				<div style=' width: 350px; position: absolute;  left: 37%;'>
 					<div class='divLogin'>
-						<span class='spanlogin spanLoginFrist'>用户名：</span> <span class='spanlogin'><input type='text' name='username' class='spanLoginText'></span>
+						<span class='spanlogin spanLoginFrist spanFontColor'>用户名：</span> <span class='spanlogin'><input type='text' name='username' class='spanLoginText'></span>
 					</div>
 					<div class='divLogin'>
-						<span class='spanlogin spanLoginFrist'>密码:</span> <span class='spanlogin'><input type='text' name='password' class='spanLoginText'></span>
+						<span class='spanlogin spanLoginFrist spanFontColor'>密码:</span> <span class='spanlogin'><input type='text' name='password' class='spanLoginText'></span>
 					</div>
 					<div class='divLogin'>
-						<span class='spanlogin spanLoginFrist'>验证码:</span> <span class='spanlogin'><input type='text' name='yanzhengma'></span> <span class='spanlogin' style='width: 25px;'>&nbsp;</span> <span class='spanlogin' style=' background-color: rgb(175,175,175); width: 50px; height: 19px;'>&nbsp;</span>
+						<span class='spanlogin spanLoginFrist spanFontColor'>验证码:</span> <span class='spanlogin'><input type='text' name='yanzhengma'></span> <span class='spanlogin' style='width: 25px;'>&nbsp;</span> <span class='spanlogin' style=' background-color: rgb(175,175,175); width: 50px; height: 19px;'>&nbsp;</span>
 					</div>
 					<div class='divLogin'>
 						<span class='spanlogin' style='width: 78px;'>&nbsp;</span> 
 
-
-
-						<span class='spanlogin' style='width: 85px; height:35px;background-image:url(./public/image/loginbutton.png); color:white; font-size: 14px; text-indent: 20px; letter-spacing: 10px; line-height: 35px; font-weight: bold;'>登入</span>
-
-
-
-					</div>
+						<span class='spanlogin' style='width: 85px; height:35px;background-image:url(./public/image/loginbutton.png); color:white; font-size: 14px; text-indent: 20px; letter-spacing: 10px; line-height: 35px; font-weight: bold;'>
+							<a href='{$URLController}?{$CONTROLLER}=homePage&{$FUNCTIONS}=index'>登入</a>
+						</span>
+				
 				</div>
 			</div>
 		</div>

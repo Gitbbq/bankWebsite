@@ -6,29 +6,12 @@
 
     </head>
 
-     <frameset rows="68,*" cols="*" frameborder="no" border="0" framespacing="0">
-        <frame src="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=headers" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
+    <body style='margin:0;'>
+     <!-- <frameset rows="68,*" cols="*" frameborder="no" border="0" framespacing="0"> -->
+        <iframe src="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=headers" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame"  width='100%' frameborder = '0' style='height: 64px;'></iframe>
 
-        <frameset cols="228,*"  frameborder="no" border="0" framespacing="0" style=' background-color: rgb(209,227,246)'>
-
-            <frame src="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
+        <iframe src="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" style='float: left;width: 234px;height: 610px;position: relative;top: -8px;left: 4px;'frameborder = '0' ></iframe>
             
-            <frame src="{$URLController}?{$CONTROLLER}=test&{$FUNCTIONS}=index" name="mainFrame" style="width: 590px;height: 1050px;" id="mainFrame" title="mainFrame" />
-
-
-        </frameset>
-    </frameset>
-
-
-    <noframes>
-
-        <body>
-        </body>
-
-
-    </noframes>
-    
-           
-        
+        <iframe src="{$URLController}?{$CONTROLLER}=test&{$FUNCTIONS}=index" name="mainFrame" style="width:1044px;height: 600px;" id="mainFrame" title="mainFrame"  style='float: left;' frameborder = '0'></iframe>
     </body>
 </html>

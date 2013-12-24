@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:31:07
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:58:10
          compiled from "/web/www/bankWebsite/templates/frame/left.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7920913152b9545b374f10-38642796%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:28029555352b95ab21a1175-98542148%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '56e04486119276793f11b1a0495a708d188915c6' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/left.tpl',
-      1 => 1387877371,
+      1 => 1387879014,
     ),
   ),
-  'nocache_hash' => '7920913152b9545b374f10-38642796',
+  'nocache_hash' => '28029555352b95ab21a1175-98542148',
   'function' => 
   array (
   ),
@@ -23,7 +23,7 @@ $_smarty_tpl->decodeProperties(array (
         <title></title>
         <link rel="stylesheet" media="screen" href="public/css/managementLeft.css">
     </head>
-    <body style='position: absolute;left: 12px;'>
+    <body style='float: right;'>
         <div id="navTitle">
             导航菜单
         </div>

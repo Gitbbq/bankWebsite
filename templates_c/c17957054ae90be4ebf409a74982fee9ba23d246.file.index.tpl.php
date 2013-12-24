@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:31:07
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:58:10
          compiled from "/web/www/bankWebsite/templates/frame/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:116931427952b9545b234311-23430591%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:163423795952b95ab20686b8-18192233%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c17957054ae90be4ebf409a74982fee9ba23d246' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/index.tpl',
-      1 => 1387877462,
+      1 => 1387879053,
     ),
   ),
-  'nocache_hash' => '116931427952b9545b234311-23430591',
+  'nocache_hash' => '163423795952b95ab20686b8-18192233',
   'function' => 
   array (
   ),
@@ -24,38 +24,21 @@ $_smarty_tpl->decodeProperties(array (
 
     </head>
 
-     <frameset rows="68,*" cols="*" frameborder="no" border="0" framespacing="0">
-        <frame src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
+    <body style='margin:0;'>
+     <!-- <frameset rows="68,*" cols="*" frameborder="no" border="0" framespacing="0"> -->
+        <iframe src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
 =frame&<?php echo $_smarty_tpl->getVariable('FUNCTIONS')->value;?>
-=headers" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
+=headers" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame"  width='100%' frameborder = '0' style='height: 64px;'></iframe>
 
-        <frameset cols="228,*"  frameborder="no" border="0" framespacing="0" style=' background-color: rgb(209,227,246)'>
-
-            <frame src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
+        <iframe src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
 =frame&<?php echo $_smarty_tpl->getVariable('FUNCTIONS')->value;?>
-=left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
+=left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" style='float: left;width: 234px;height: 610px;position: relative;top: -8px;left: 4px;'frameborder = '0' ></iframe>
             
-            <frame src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
+        <iframe src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
 =test&<?php echo $_smarty_tpl->getVariable('FUNCTIONS')->value;?>
-=index" name="mainFrame" style="width: 590px;height: 1050px;" id="mainFrame" title="mainFrame" />
-
-
-        </frameset>
-    </frameset>
-
-
-    <noframes>
-
-        <body>
-        </body>
-
-
-    </noframes>
-    
-           
-        
+=index" name="mainFrame" style="width:1044px;height: 600px;" id="mainFrame" title="mainFrame"  style='float: left;' frameborder = '0'></iframe>
     </body>
 </html>

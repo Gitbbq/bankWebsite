@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 14:07:17
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:20:56
          compiled from "/web/www/bankWebsite/templates/frame/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:68890759752b92495573305-69871515%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:53198409252b951f8776953-70636845%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e85ac92f253b77ccb50bd0f31f330c71335fbcec' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/header.tpl',
-      1 => 1387865070,
+      1 => 1387876806,
     ),
   ),
-  'nocache_hash' => '68890759752b92495573305-69871515',
+  'nocache_hash' => '53198409252b951f8776953-70636845',
   'function' => 
   array (
   ),
@@ -21,7 +21,7 @@ $_smarty_tpl->decodeProperties(array (
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-         <link rel="stylesheet" media="screen" href="../../public/css/titleStyle.css">
+         <link rel="stylesheet" media="screen" href="public/css/titleStyle.css">
     </head>
     <body>
         <div id="title">

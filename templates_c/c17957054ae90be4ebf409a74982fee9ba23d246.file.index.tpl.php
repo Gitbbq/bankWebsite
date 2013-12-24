@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 16:08:33
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:31:07
          compiled from "/web/www/bankWebsite/templates/frame/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:25458273752b94101cfd0a6-13375754%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:116931427952b9545b234311-23430591%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c17957054ae90be4ebf409a74982fee9ba23d246' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/index.tpl',
-      1 => 1387868654,
+      1 => 1387877462,
     ),
   ),
-  'nocache_hash' => '25458273752b94101cfd0a6-13375754',
+  'nocache_hash' => '116931427952b9545b234311-23430591',
   'function' => 
   array (
   ),
@@ -24,13 +24,13 @@ $_smarty_tpl->decodeProperties(array (
 
     </head>
 
-     <frameset rows="30,*" cols="*" frameborder="no" border="0" framespacing="0">
+     <frameset rows="68,*" cols="*" frameborder="no" border="0" framespacing="0">
         <frame src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
 =frame&<?php echo $_smarty_tpl->getVariable('FUNCTIONS')->value;?>
 =headers" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
 
-        <frameset cols="150,*"  frameborder="no" border="0" framespacing="0" style=' background-color: rgb(209,227,246)'>
+        <frameset cols="228,*"  frameborder="no" border="0" framespacing="0" style=' background-color: rgb(209,227,246)'>
 
             <frame src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
@@ -40,7 +40,7 @@ $_smarty_tpl->decodeProperties(array (
             <frame src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
 =test&<?php echo $_smarty_tpl->getVariable('FUNCTIONS')->value;?>
-=index" name="mainFrame" id="mainFrame" title="mainFrame" />
+=index" name="mainFrame" style="width: 590px;height: 1050px;" id="mainFrame" title="mainFrame" />
 
 
         </frameset>

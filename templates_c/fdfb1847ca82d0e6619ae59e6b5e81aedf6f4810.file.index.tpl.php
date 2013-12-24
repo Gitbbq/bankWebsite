@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 14:07:17
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:20:56
          compiled from "/web/www/bankWebsite/templates/test/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:110766284952b9249567fa24-07251962%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:67188064952b951f8930ff7-17351674%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fdfb1847ca82d0e6619ae59e6b5e81aedf6f4810' => 
     array (
       0 => '/web/www/bankWebsite/templates/test/index.tpl',
-      1 => 1387865070,
+      1 => 1387876806,
     ),
   ),
-  'nocache_hash' => '110766284952b9249567fa24-07251962',
+  'nocache_hash' => '67188064952b951f8930ff7-17351674',
   'function' => 
   array (
   ),
@@ -18,15 +18,17 @@ $_smarty_tpl->decodeProperties(array (
 )); /*/%%SmartyHeaderCode%%*/?>
 <!DOCTYPE html>
 <html>
-    <head>
+        <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="../../public/css/managementRight.css">
+        <link rel="stylesheet" media="screen" href="public/css/managementRight.css">
+        <script src="./public/js/jquery.js"></script>
+        <script src="./public/js/errorMessage.js"></script>
     </head>
     <body>
         <div>
             <div id="top" class="titleStyle">
-                <div style="background-color: #5CE6FF;height: 3px;"></div>
+                <div class="blueLine"></div>
                 <div style="background-color: #E4EEFA;height: 47px;">
                     <div style="margin-left: 15px;">
                         <span id="nowPosition">当前位置：系统参数配置管理</span> > 凭证交叉对比配置规则表
@@ -76,8 +78,12 @@ $_smarty_tpl->decodeProperties(array (
                                 <td class="noCenter">今日完成了管理系统登录页面设计</td>
                                 <td class="leftPadding">完成</td>
                                 <td class="leftPadding">2013-12-10</td>
-                                <td class="leftPadding">
-                                    <img> <img> <img> <img> <img> 
+                                <td class="leftPadding iconList">
+                                    <div class="managementIconStyle divFloat icon1"></div> 
+                                    <div class="managementIconStyle divFloat icon2"></div>
+                                    <div class="managementIconStyle divFloat icon3"></div>
+                                    <div class="managementIconStyle divFloat icon4"></div>
+                                    <div class="managementIconStyle divFloat icon5"></div>
                                 </td>
                             </tr>
                             <tr>
@@ -86,8 +92,12 @@ $_smarty_tpl->decodeProperties(array (
                                 <td class="noCenter">今日完成了管理系统登录页面设计</td>
                                 <td class="leftPadding">完成</td>
                                 <td class="leftPadding">2013-12-10</td>
-                                <td class="leftPadding">
-                                    <img> <img> <img> <img> <img> 
+                                <td class="leftPadding iconList">
+                                    <div class="managementIconStyle divFloat icon1"></div> 
+                                    <div class="managementIconStyle divFloat icon2"></div>
+                                    <div class="managementIconStyle divFloat icon3"></div>
+                                    <div class="managementIconStyle divFloat icon4"></div>
+                                    <div class="managementIconStyle divFloat icon5"></div>
                                 </td>
                             </tr>
                             <tr>
@@ -96,21 +106,34 @@ $_smarty_tpl->decodeProperties(array (
                                 <td class="noCenter">今日完成了管理系统登录页面设计</td>
                                 <td class="leftPadding">完成</td>
                                 <td class="leftPadding">2013-12-10</td>
-                                <td class="leftPadding">
-                                    <img> <img> <img> <img> <img> 
+                                <td class="leftPadding iconList">
+                                    <div class="managementIconStyle divFloat icon1"></div> 
+                                    <div class="managementIconStyle divFloat icon2"></div>
+                                    <div class="managementIconStyle divFloat icon3"></div>
+                                    <div class="managementIconStyle divFloat icon4"></div>
+                                    <div class="managementIconStyle divFloat icon5"></div>
                                 </td>
                             </tr>
                         </table>
+                        <div id="errorWindow" style="position: absolute; left:330px; ;top:230px; width:350px;height: 152px;display: none; ">
+                            <div id="errorMessage">对不起，你没有权限访问！</div>
+                            <div id="closeErrorWindow">确定</div>
+                        </div>
+                        <div id="butGroup">
+                        <button id="notPower">没有权限</button>
+                        <button id="sysError">系统错误</button>
+                        <button id="hiddenBut">隐藏按钮</button>
+                        </div>
                     </div>
                     <div id="taskbar">
                         <div class="divFloat" style="width: 80%;">
-                        <div class="divFloat taskBotton"  id="firstPageButton"></div>
-                        <div class="divFloat taskBotton" id="prevPageButton"></div>
-                        <div class="divFloat " id="pageNumText" style=" ">页码<input type="text"style="width: 20px;" value="1">&nbsp;of 6</div>
-                        <div class="divFloat taskBotton" id="nextPageButton"></div>
-                        <div class="divFloat taskBotton" id="lastPageButton"></div>
-                        <div class="divFloat taskBotton" id="taskLine"></div>
-                        <div class="divFloat taskBotton" id="taskRefresh"></div>
+                            <div class="divFloat taskBotton"  id="firstPageButton"></div>
+                            <div class="divFloat taskBotton" id="prevPageButton"></div>
+                            <div class="divFloat " id="pageNumText" style=" ">页码<input type="text"style="width: 20px;" value="1">&nbsp;of 6</div>
+                            <div class="divFloat taskBotton" id="nextPageButton"></div>
+                            <div class="divFloat taskBotton" id="lastPageButton"></div>
+                            <div class="divFloat taskBotton" id="taskLine"></div>
+                            <div class="divFloat taskBotton" id="taskRefresh"></div>
                         </div>
                         <div  id="taskMessage" style=" ">当前1---5条数据，共五条</div>
                     </div>

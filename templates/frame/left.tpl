@@ -3,9 +3,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="../../public/css/managementLeft.css">
+        <link rel="stylesheet" media="screen" href="public/css/managementLeft.css">
     </head>
-    <body>
+    <body style='position: absolute;left: 12px;'>
         <div id="navTitle">
             导航菜单
         </div>

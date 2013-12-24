@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 14:07:17
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 17:31:07
          compiled from "/web/www/bankWebsite/templates/frame/left.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:118242846252b924955d6058-80040614%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:7920913152b9545b374f10-38642796%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '56e04486119276793f11b1a0495a708d188915c6' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/left.tpl',
-      1 => 1387865070,
+      1 => 1387877371,
     ),
   ),
-  'nocache_hash' => '118242846252b924955d6058-80040614',
+  'nocache_hash' => '7920913152b9545b374f10-38642796',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_smarty_tpl->decodeProperties(array (
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="../../public/css/managementLeft.css">
+        <link rel="stylesheet" media="screen" href="public/css/managementLeft.css">
     </head>
-    <body>
+    <body style='position: absolute;left: 12px;'>
         <div id="navTitle">
             导航菜单
         </div>

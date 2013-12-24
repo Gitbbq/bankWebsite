@@ -41,7 +41,7 @@ class Query extends DB_Mysql_search {
     protected $like_string = '';
     protected $limit_string;
 
-    function __constructor($table) {
+    function __constructor($table = null) {
         $this->table = $table;
         $this->convertor = new Convertor;
     }

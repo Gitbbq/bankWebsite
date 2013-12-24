@@ -5,7 +5,7 @@
         <title></title>
         <link rel="stylesheet" media="screen" href="/public/css/managementLeft_1.css">
     </head>
-    <body>
+    <body style='float: right;'>
         <div id="navTitle">
             导航菜单
         </div>
@@ -47,7 +47,7 @@
                         </li>
                     </ul>
 
-                    <li style="margin-top: 10px;">
+                    <li style="margin-top: 50px;">
                         <div class=" divFloat ">
                             <div class="navMenuImage" id="I311"></div>
                         </div>

@@ -33,7 +33,7 @@
                 </div>
             </menu>
             <div id="context" class="contextStyle">
-                <div style="background-color:white;">
+                <div style="background-color:white; float: left;">
                     <div style="height: 50px;margin-left:45px;">
                         <div class="divFloat selectBorder" >
                             <div class="divFloat selectFont">凭证交叉对比配置规则表</div>

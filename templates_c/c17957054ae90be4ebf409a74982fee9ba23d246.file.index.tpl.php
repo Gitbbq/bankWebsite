@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 18:59:22
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 19:03:36
          compiled from "/web/www/bankWebsite/templates/frame/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:51095948852b9690ad63ce4-49853778%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:120600648052b96a08813c11-18478672%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c17957054ae90be4ebf409a74982fee9ba23d246' => 
     array (
       0 => '/web/www/bankWebsite/templates/frame/index.tpl',
-      1 => 1387882762,
+      1 => 1387883015,
     ),
   ),
-  'nocache_hash' => '51095948852b9690ad63ce4-49853778',
+  'nocache_hash' => '120600648052b96a08813c11-18478672',
   'function' => 
   array (
   ),
@@ -29,7 +29,7 @@ $_smarty_tpl->decodeProperties(array (
         <iframe src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>
 =frame&<?php echo $_smarty_tpl->getVariable('FUNCTIONS')->value;?>
-=headers" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame"  width='100%' frameborder = '0' style='height: 64px;'></iframe>
+=headers" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame"   frameborder = '0' style='height: 64px; width: 100%;'></iframe>
 
         <iframe src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 ?<?php echo $_smarty_tpl->getVariable('CONTROLLER')->value;?>

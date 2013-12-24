@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 18:31:50
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 19:10:33
          compiled from "/web/www/bankWebsite/templates/test/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:21731884352b96296060023-04724771%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:80583707452b96ba946c0d4-49250591%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fdfb1847ca82d0e6619ae59e6b5e81aedf6f4810' => 
     array (
       0 => '/web/www/bankWebsite/templates/test/index.tpl',
-      1 => 1387881094,
+      1 => 1387883431,
     ),
   ),
-  'nocache_hash' => '21731884352b96296060023-04724771',
+  'nocache_hash' => '80583707452b96ba946c0d4-49250591',
   'function' => 
   array (
   ),
@@ -51,7 +51,7 @@ $_smarty_tpl->decodeProperties(array (
                 </div>
             </menu>
             <div id="context" class="contextStyle">
-                <div style="background-color:white;">
+                <div style="background-color:white; float: left;">
                     <div style="height: 50px;margin-left:45px;">
                         <div class="divFloat selectBorder" >
                             <div class="divFloat selectFont">凭证交叉对比配置规则表</div>

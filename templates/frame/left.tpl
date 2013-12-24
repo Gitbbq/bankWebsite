@@ -3,13 +3,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="/public/css/managementLeft_1.css">
+        <link rel="stylesheet" media="screen" href="./public/css/managementLeft.css">
     </head>
     <body style='float: right;'>
         <div id="navTitle">
             导航菜单
         </div>
         <div id="nav">
+            <div style='width: 221px;height: 21px;background-color: white; margin-top: -5px;'></div>
             <div>
                 <ul id="navMenu">
                     <li class="menuBoxSelect">
@@ -47,7 +48,7 @@
                         </li>
                     </ul>
 
-                    <li style="margin-top: 50px;">
+                    <li style="margin-top: 10px;">
                         <div class=" divFloat ">
                             <div class="navMenuImage" id="I311"></div>
                         </div>

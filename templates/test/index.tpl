@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="./public/css/managementRight_1.css">
+        <link rel="stylesheet" media="screen" href="./public/css/managementRight.css">
         <script src="./public/js/jquery.js"></script>
         <script src="./public/js/errorMessage.js"></script>
     </head>

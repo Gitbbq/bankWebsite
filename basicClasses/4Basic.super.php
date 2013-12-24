@@ -18,20 +18,25 @@ class Basic extends Query {
     public $mem;
     protected $child_name;
 
-    function __constructor() {
-        try {
+    
+    public function __construct() {
+          try {
             if (empty($this->child_name)) {
                 throw new Exception("wrong child config");
             }
 //            $this->mem =  new Memcache;
 //            $this->mem->connect('127.0.0.1', 11211) or die ("Could not connect");
-            
-                 parent::__constructor($this->child_name);
+                
+            if(!empty($this->child_name)){
+                parent::__constructor($this->child_name);
+            }
+                 
            
         } catch (Exception $e) {
             echo $e;
         }
     }
+   
 
     function getVar() {
         $records = $this->selectQuery();

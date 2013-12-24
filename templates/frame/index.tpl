@@ -13,7 +13,7 @@
 
             <frame src="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
             
-            <frame src="{$URLController}?{$CONTROLLER}=test&{$FUNCTIONS}=index" name="mainFrame" id="mainFrame" title="mainFrame" />
+            <frame src="{$URLController}?{$CONTROLLER}=test&{$FUNCTIONS}=index" name="mainFrame" style="width: 590px;height: 1050px;" id="mainFrame" title="mainFrame" />
 
 
         </frameset>

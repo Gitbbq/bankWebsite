@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <link rel="stylesheet" media="screen" href="../../public/css/managementLeft.css">
+        <link rel="stylesheet" media="screen" href="public/css/managementLeft.css">
     </head>
     <body>
         <div id="navTitle">

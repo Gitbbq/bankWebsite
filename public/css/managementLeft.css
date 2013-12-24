@@ -37,6 +37,9 @@ ul{
     padding-left: 10px;
     /*     padding-top: 5px;*/
 }
+.menuBoxSelect{
+    background-image: url('../image/menuBoxSelect.png')!important;
+}
 .divFloat{
 
     /*    display: inline-block;*/
@@ -64,6 +67,11 @@ ul{
 .selectChildItem{
 
     background-image: url('../image/selectChildItem.png');
+    background-repeat: no-repeat;
+}
+.nomalChildItem{
+
+    background-image: url('../image/nomalChildItem.png');
     background-repeat: no-repeat;
 }
 .chlidNavText{
@@ -99,8 +107,8 @@ ul{
         background-image: url('../image/3-1_20.png');
 }
 #I314{
-        background-image: url('../image/3-1_03.png');
+        background-image: url('../image/3-1_14.png');
 }
 #I317{
-        background-image: url('../image/3-1_03.png');
+        background-image: url('../image/3-1_17.png');
 }

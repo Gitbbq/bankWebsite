@@ -9,7 +9,7 @@
      <frameset rows="30,*" cols="*" frameborder="no" border="0" framespacing="0">
         <frame src="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=headers" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
 
-        <frameset cols="150,*" frameborder="no" border="0" framespacing="0" style=' background-color: rgb(209,227,246)'>
+        <frameset cols="150,*"  frameborder="no" border="0" framespacing="0" style=' background-color: rgb(209,227,246)'>
 
             <frame src="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=left" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
             

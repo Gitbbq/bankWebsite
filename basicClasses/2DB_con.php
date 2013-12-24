@@ -41,10 +41,13 @@ class Query extends DB_Mysql_search {
     protected $like_string = '';
     protected $limit_string;
 
-    function __constructor($table = null) {
-        $this->table = $table;
+
+    public function __construct($table = null) {
+         $this->table = $table;
         $this->convertor = new Convertor;
+       
     }
+
 
     public function changeDataTable($table) {
         $this->table = $table;

@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 14:41:32
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-24 18:31:17
          compiled from "/web/www/bankWebsite/templates/public/login.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:70635722352b92c9ce30bf8-81838682%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:192522985252b96275981134-03862233%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5cf5f9be84c9a20c57dba8a074c4dd7a14eee4aa' => 
     array (
       0 => '/web/www/bankWebsite/templates/public/login.tpl',
-      1 => 1387864582,
+      1 => 1387881075,
     ),
   ),
-  'nocache_hash' => '70635722352b92c9ce30bf8-81838682',
+  'nocache_hash' => '192522985252b96275981134-03862233',
   'function' => 
   array (
   ),
@@ -95,6 +95,10 @@ $_smarty_tpl->decodeProperties(array (
 		.spanFontColor{
 			color: rgb(167,167,167);
 		}
+		a:link {}		/* 未访问的链接 */
+a:visited {}	/* 已访问的链接 */
+a:hover {}	/* 鼠标移动到链接上 */
+a:active {}	/* 选定的链接 */
 		</style>
 	</head>
 	<body style=" background-image:url(./public/image/loginback.png); background-position: center -85px; background-repeat: no-repeat;'">

@@ -100,37 +100,37 @@ a:hover {text-decoration:none;}
 
 		<div class="rowListStyle">
 			<div class="systemCache effect" style=" margin-left: 97px;">
-			   <a class="imgWarp"><img src="./public/simage/3-1_03.png" style=" margin-left: 35px;" class="imgStyle"></a>
+			   <a class="imgWarp" href="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=index"><img src="./public/simage/3-1_03.png" style=" margin-left: 35px;" class="imgStyle"></a>
 			   <div class="roundedBorder" style=" width: 110px; background-color: rgb(9,39,82)">系统缓存管理</div>
 		    </div>
 
 		   	<div class="systemCache effect">
-			   <a class="imgWarp"><img src="./public/simage/3-1_11.png" style=" margin-left: 18px;" class="imgStyle"></a>
+			   <a class="imgWarp" href="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=index"><img src="./public/simage/3-1_11.png" style=" margin-left: 18px;" class="imgStyle"></a>
 			   <div class="roundedBorder"style=" width: 90px; background-color: rgb(9,39,82)">报表管理</div>
 		    </div>
 
 		    <div class="systemCache effect">
-			   <a class="imgWarp"><img src="./public/simage/3-1_06.png"  class="imgStyle"></a>
+			   <a class="imgWarp" href="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=index"><img src="./public/simage/3-1_06.png"  class="imgStyle"></a>
 			   <div class="roundedBorder" style=" width: 110px; margin-left: 18px; background-color: rgb(9,39,82);">参数配置管理</div>
 		    </div>
 
 		    <div class="systemCache effect">
-			   <a class="imgWarp"><img src="./public/simage/3-1_08.png" margin-left: 18px; class="imgStyle""></a>
+			   <a class="imgWarp" href="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=index"><img src="./public/simage/3-1_08.png" margin-left: 18px; class="imgStyle""></a>
 			   <div class="roundedBorder" style=" background-color: rgb(9,39,82);width: 90px;">任务管理</div>
 		    </div>
 
 		    <div class="systemCache effect">
-			   <a class="imgWarp"><img src="./public/simage/3-1_20.png" class="imgStyle""></a>
+			   <a class="imgWarp" href="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=index"><img src="./public/simage/3-1_20.png" class="imgStyle""></a>
 			   <div class="roundedBorder" style=" margin-left: 18px;background-color: rgb(9,39,82)">厂商信息管理</div>
 		    </div>
 
 		    <div class="systemCache effect">
-			   <a class="imgWarp"><img src="./public/simage/3-1_14.png" class="imgStyle""></a>
+			   <a class="imgWarp" href="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=index"><img src="./public/simage/3-1_14.png" class="imgStyle""></a>
 			   <div class="roundedBorder" style="width: 90px; margin-left: 26px;background-color: rgb(9,39,82)">流程管理</div>
 		    </div>
 
 		    <div class="systemCache effect">
-			   <a class="imgWarp"><img src="./public/simage/3-1_17.png" class="imgStyle" style=" margin-left: -6px;"></a>
+			   <a class="imgWarp" href="{$URLController}?{$CONTROLLER}=frame&{$FUNCTIONS}=index"><img src="./public/simage/3-1_17.png" class="imgStyle" style=" margin-left: -6px;"></a>
 			   <div class="roundedBorder" style=" margin-left: 15px;background-color: rgb(9,39,82)">角色权限管理</div>
 		    </div>
 

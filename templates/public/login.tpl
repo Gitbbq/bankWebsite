@@ -77,6 +77,10 @@
 		.spanFontColor{
 			color: rgb(167,167,167);
 		}
+		a:link {}		/* 未访问的链接 */
+a:visited {}	/* 已访问的链接 */
+a:hover {}	/* 鼠标移动到链接上 */
+a:active {}	/* 选定的链接 */
 		</style>
 	</head>
 	<body style=" background-image:url(./public/image/loginback.png); background-position: center -85px; background-repeat: no-repeat;'">

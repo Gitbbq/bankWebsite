@@ -9,17 +9,17 @@
         <div id="navTitle">
             导航菜单
         </div>
-        <div id="nav">
-            <div style='width: 221px;height: 21px;background-color: white; margin-top: -5px;'></div>
+        <div id="nav" style='margin-top: -21px;'>
+           
             <div>
                 <ul id="navMenu">
-                    <li class="menuBoxSelect">
+                    <li >
                         <div class=" divFloat ">
                             <div class="navMenuImage" id="I303"></div>
                         </div>
                         <div class="divFloat navText ">系统缓存管理</div>
                     </li>
-                    <li>
+                    <li class="menuBoxSelect">
                         <div class=" divFloat ">
                             <div class="navMenuImage" id="I306"></div>
                         </div>

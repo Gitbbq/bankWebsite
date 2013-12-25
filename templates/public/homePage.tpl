@@ -75,6 +75,12 @@ height: 80px;
 	cursor: pointer;
 
 }
+
+a:link {text-decoration:none;} 
+a:active:{text-decoration:none;} 
+a:visited {text-decoration:none;} 
+a:hover {text-decoration:none;} 
+
 /*.effect{
 
 	border: solid 1px red;
@@ -87,7 +93,7 @@ height: 80px;
 	<div class="warp">
 		<div class="titleStyle"><img src="./public/simage/banner.png" style=" margin-top: 128px;"></div>
 		<div class="rowLogoStyle">
-			<span style=" margin-left: -45px;"><img src = "./public/image/jx.png"/></span>
+			<span style=" margin-left: -45px;"><img src = "./public/simage/jx.png"/></span>
 		</div>
 
 		<div style=" height: 90px;"></div>
